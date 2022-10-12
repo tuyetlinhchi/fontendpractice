@@ -1,0 +1,78 @@
+/* ul {
+  display: flex;
+} */
+
+input {
+  width: 200px;
+  height: 50px;
+  font-size: 24px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  flex-wrap: wrap;
+}
+li {
+  width: 100px;
+  height: 100px;
+}
+
+li:nth-child(2n) {
+  background-color: blue;
+}
+
+li:nth-child(2n + 1) {
+  background-color: red;
+}
+
+@media screen and (max-width: 1200px) {
+  li:nth-child(2n + 1) {
+    background-color: purple;
+  }
+  li:nth-child(2n) {
+    background-color: pink;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  li:nth-child(2n + 1) {
+    background-color: yellow;
+    width: 30px;
+  }
+  li:nth-child(2n) {
+    background-color: purple;
+    width: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  li:nth-child(2n + 1) {
+    background-color: brown;
+    width: 30px;
+  }
+  li:nth-child(2n) {
+    background-color: yellow;
+    width: 40px;
+  }
+}
+@media screen and (max-width: 425px) {
+  li:nth-child(2n + 1) {
+    background-color: yellow;
+    width: 20px;
+  }
+  li:nth-child(2n) {
+    background-color: red;
+    width: 50px;
+  }
+}
+@media screen and (max-width: 320px) {
+  li:nth-child(2n + 1) {
+    background-color: red;
+    width: 20px;
+  }
+  li:nth-child(2n) {
+    background-color: blue;
+    width: 30px;
+  }
+}

@@ -1,0 +1,41 @@
+.container {
+  text-align: center;
+}
+.box {
+  background-color: rgb(133, 152, 204);
+  height: 2.5em;
+  width: 8em;
+  align-items: center;
+  margin: auto;
+  border: none;
+  font-size: 1.2em;
+}
+span {
+  color: rgb(0, 174, 239);
+}
+button {
+  background-color: rgb(48, 48, 50);
+  color: rgb(238, 238, 238);
+  height: 3em;
+  width: 10em;
+  border-radius: 5px;
+  border: none;
+  margin: 0.2em 0.6em;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .box {
+    height: 2.5em;
+    width: 8em;
+  }
+  span {
+    color: rgb(0, 174, 239);
+  }
+  button {
+    height: 3em;
+    width: 10em;
+  }
+}

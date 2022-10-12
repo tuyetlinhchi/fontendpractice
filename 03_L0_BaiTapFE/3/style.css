@@ -1,0 +1,17 @@
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./umbrella.jpg);
+  background-size: cover;
+  text-align: center;
+  color: aliceblue;
+}
+
+button {
+  background-color: rgb(255, 79, 58);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  /* text-align: center; */
+  /* width: 30em; */
+  height: 3em;
+  cursor: pointer;
+}
